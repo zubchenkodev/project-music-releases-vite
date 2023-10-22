@@ -6,6 +6,8 @@ I would like to add a few details about the requierments:
 
 2. The separators between artists names work as they should ( commas between all items and & before the last one ), but I don't think that current data contains an album with more then 2 artists, so I have tested it with some dummy data.
 
+And the link is https://earnest-pavlova-13c952.netlify.app/.
+
 Thank you!
 
 Best,
