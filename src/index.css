@@ -14,7 +14,11 @@ h3 {
 }
 
 h2 {
-  margin-bottom: 25px;
+  color: #fff;
+  font-family: Helvetica,sans-serif;
+  font-size: 20px;
+  margin-bottom: 2em;
+  margin-left: 10px;
 }
 
 .app {
@@ -25,7 +29,26 @@ h2 {
 
 .app__header {
   padding-top: 25px;
-  padding-bottom: 25px;
+}
+
+.app__header h1 {
+  color: #fff;
+  display: flex;
+  font-family: Helvetica,sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.app__header p {
+  color: #fff;
+  display: flex;
+  font-family: Helvetica,sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  margin-bottom: 2em;
+  text-align: center;
 }
 
 .app__container {
@@ -64,13 +87,14 @@ h2 {
   gap: 25px;
   list-style: none;
   padding-left: 0;
-  @media only screen and (max-width: 480px)  {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  @media only screen and (max-width: 767px)  {
+  @media only screen and (max-width: 1024px)  {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.albums-grid {@media only screen and (max-width: 666px)  {
+  grid-template-columns: repeat(1, 1fr);
+}}
 
 .album {
   margin: 10px;
